@@ -18,3 +18,12 @@ Donc, pour faire fonctionner cette macro, il faut toujours :
 	2 - Faire que l'appui sur ce bouton, lance la procédure/macro CR_copy
 	3 - Importer la userForm USERFORMCHOIX
 	et vérifier que le code est toujours présent.
+
+
+
+**********Version 02**************
+L'algorithme est conservé.
+	1 - La modification porte sur l'ajout d'une fonction "RécupérationDate" qui en fonction de l'argument retourne un String Date formaté en WW, YY ou YYWW.
+	2 - La UserForm indique désormais directement la date par défaut à l'aide de la fonction définie ci-dessus.
+
+
