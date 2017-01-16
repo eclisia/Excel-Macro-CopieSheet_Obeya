@@ -4,3 +4,17 @@ L'appuit sur ce bouton, lance une procedure sub de copy.
 
 Le paramétrage de la nouvelle feuille (name) est réalisée à l'aide de simple InputBox.
 Il n'existe aucune gestion d'erreur.
+
+
+**********Version 01**************
+L'algorithme est globalement conservé.
+En revanche l'implémentation de la macro est fortement modifiée.
+	1 - Utilisation d'une UserForm en lieu et place des InputBox
+	2 - Déplacement du code principale vers le code du bouton "Valide" (donc dans la Userform plutôt que dans la sub initiale).
+	3 - Ajout d'un mécanisme simple de gestion d'erreur (cas de la feuille déjà existante)
+
+Donc, pour faire fonctionner cette macro, il faut toujours :
+	1 - Créer un bouton dans la feuille de calcul
+	2 - Faire que l'appui sur ce bouton, lance la procédure/macro CR_copy
+	3 - Importer la userForm USERFORMCHOIX
+	et vérifier que le code est toujours présent.
