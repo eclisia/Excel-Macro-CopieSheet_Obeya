@@ -1,0 +1,6 @@
+Il s'agit de la version initiale de macro.
+Cette macro permet de dupliquer une feuille Excel à partir d'un bouton placer dans la feuille.
+L'appuit sur ce bouton, lance une procedure sub de copy.
+
+Le paramétrage de la nouvelle feuille (name) est réalisée à l'aide de simple InputBox.
+Il n'existe aucune gestion d'erreur.
